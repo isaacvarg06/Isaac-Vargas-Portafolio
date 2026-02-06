@@ -110,9 +110,9 @@ MIT License - ver [LICENSE](LICENSE)
 ## 👤 Autor
 
 **Tu Nombre**
-- GitHub: [@tuusuario](https://github.com/tuusuario)
-- LinkedIn: [Tu Perfil](https://linkedin.com/in/tuperfil)
-- Email: tuemail@ejemplo.com
+- GitHub: [isaacvarg06](https://github.com/isaacvarg06)
+- LinkedIn: [Isaac Esteban Vargas](https://www.linkedin.com/in/isaac-esteban-vargas-a021b4303/)
+- Email: vargasisaac556@gmail.com
 
 ## 🤝 Contribuciones
 
