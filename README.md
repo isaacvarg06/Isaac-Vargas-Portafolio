@@ -1,6 +1,11 @@
 # Isaac-Vargas-Portafolio
 Portafolio web personal desarrollado con React, FastAPI y PostgreSQL.  Incluye panel de administración con CRUD para gestión de contenido y  soporte multiidioma (ES/EN).
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![React](https://img.shields.io/badge/React-18+-61DAFB.svg)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-009688.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 
 # 🚀 Portfolio Full-Stack
