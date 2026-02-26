@@ -1,5 +1,7 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
+from sqlalchemy.orm import Session
+from app.database import get_db
 
 app = FastAPI(
     title="Portfolio API",
@@ -7,10 +9,9 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Configurar CORS para permitir peticiones desde React
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # URL de React
+    allow_origins=["http://localhost:3000"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -21,8 +22,8 @@ def read_root():
     return {"message": "Portfolio API - Bienvenido"}
 
 @app.get("/health")
-def health_check():
-    return {"status": "ok"}
+def health_check(db: Session = Depends(get_db)):
+    return {"status": "ok", "database": "connected"}
 
 if __name__ == "__main__":
     import uvicorn
